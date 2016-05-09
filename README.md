@@ -6,7 +6,7 @@ MovieLens is a movie recommendation website that uses collaborative filtering to
 
 The data is available from the GroupLens Research website here: http://grouplens.org/datasets/movielens. I am working with the "u.item" file, which contains the details of each movie, such as the year of release and what genre it is in.
 
-The dates in the data are not in a date-readable format for SQL, so first the data is run through the movielens_dates.py Python program. This creates a new file with the dates rewritten in a suitable format.
+The dates in the data are not in a date-readable format for SQL, so first the data is run through the movielens_dates.py Python program. This creates a new file with the dates rewritten in a suitable format. 
 
 The SQL table is created using the following commands:
 
